@@ -8,14 +8,14 @@
   <p align="center">
 Your Real-Time Flight Companion
     <br />
-    <a href="https://github.com/sahil9510/arogya-locker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SrishtiDharwani/flight-tracker-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://flight-tracker-one.vercel.app/">View Deployed</a>
     ·
-    <a href="https://github.com/sahil9510/arogya-locker/issues">Report Bug</a>
+    <a href="https://github.com/SrishtiDharwani/flight-tracker-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sahil9510/arogya-locker/issues">Request Feature</a>
+    <a href="https://github.com/SrishtiDharwani/flight-tracker-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -175,29 +175,28 @@ Arogya Locker uses ABHA ID for identity management. The ABHA IDs are stored on t
 <img src="./public/filter.png"/>
 <br/>
 
-File storage is done using IPFS that eliminates data redundancy by storing only one copy of identical resources. This also saves storage.IPFS also ensures authenticity and uniqueness by creating a CID for each resource that serves as a digital fingerprint.
-Documents are shared by an access control mechanism by which owner can provide access to their document when required.
+Live flight results can be filtered on the basis of country or time.
 
 ### Airport Markers
 
 <img src="./public/airport.png"/>
 <br/>
 
-Doctor can respond to requests by adding a prescription, attaching the required documents and sending it to the patient.
+Markers representing airport are present on the map for the selected country. On clicking, the name of the airport is shown.
 
 ### Live Flights Information
 
 <img src="./public/flight.png"/>
 <br/>
 
-Patient can view the list of doctors and contact them as required. This ensures a two way communication between patient and doctor. Patient can also view reports sent by diagnostic labs, prescription received and PHRs. PHRs can also be added by the patient.
+Live flights for the selected country or time are shown with symbols of different colours that are decoded in the information box that appears on clicking. Other information such as the departure airport, arrival airport, altitude, speed, direction (in degrees) is shown.
 
 ### Flight Route
 
 <img src="./public/line.png"/>
 <br/>
 
-Doctor can view requests sent by patients and respond to them via a prescription. Also they can vheck the prescriptions sent under Reports tab.
+On clicking on the flight icon, line connecting waypoints from departure airport to the current location and futher till the arrival airport is shown to indicate the flight path.
 
 _For more examples, please refer to the [site](https://flight-tracker-one.vercel.app/)_
 
@@ -238,7 +237,7 @@ Contributors:
 
 [@SrishtiDharwani](https://twitter.com/SrishtiDharwani) - srishti.dharwani.30@gmail.com
 
-Project Link: [https://github.com/sahil9510/arogya-locker](https://github.com/sahil9510/arogya-locker)
+Project Link: [https://github.com/SrishtiDharwani/flight-tracker-app](https://github.com/SrishtiDharwani/flight-tracker-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
