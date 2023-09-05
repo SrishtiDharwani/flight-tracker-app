@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.datePicker {
+  position: absolute;
+  left: 30%;
+  z-index: 10;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.datePicker div {
+}
+
+.loaderClass {
+  outline: none;
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+.countrySelector {
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.name {
+  position: absolute;
+  left: 3%;
+  bottom: 5%;
+  z-index: 10;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.username {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 2px solid #82c9f4;
+}
+.css-14d6vet-MuiCardContent-root:last-child {
+  padding-bottom: 0 !important;
+}
+
+.css-yl4w7k-MuiCardContent-root:last-child {
+  padding-bottom: 0 !important;
+}
