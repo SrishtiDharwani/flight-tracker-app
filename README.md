@@ -3,6 +3,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+<a href="https://github.com/SrishtiDharwani/flight-tracker-app">
+    <img src="./src/components/resources/logo.png" alt="Logo" width="160" height="150">
+  </a>
   <h3 align="center">Flight Tracker</h3>
 
   <p align="center">

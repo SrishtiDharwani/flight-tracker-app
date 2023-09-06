@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { AuthContext } from "./store/AuthContext";
+import Logo from "../components/resources/logo.png";
 
 const Navbar = ({ name }) => {
   const auth = useContext(AuthContext);
@@ -21,16 +22,14 @@ const Navbar = ({ name }) => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          {/* <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton> */}
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <img
+            src={Logo}
+            alt="Flight Tracker"
+            height="50px"
+            width="50px"
+            style={{ marginRight: "15px" }}
+          />
+          <Typography variant="h4" sx={{ flexGrow: 1, fontWeight: "600" }}>
             Flight Tracker
           </Typography>
           {auth.isLoggedIn && (
