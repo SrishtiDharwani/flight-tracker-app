@@ -171,7 +171,7 @@ _For starting frontend:_
 <img src="./public/login.png"/>
 <br/>
 
-Arogya Locker uses ABHA ID for identity management. The ABHA IDs are stored on the blockchain on user registration and verified on login. Identity is also managed on a category level: Patient, Doctor, Hospital and Diagnostic Centres.
+Flight Tracker uses username and password for identity management. The usernames and hashed passwords are stored in the database on user registration and verified on login.
 
 ### Filter Results
 
@@ -199,7 +199,7 @@ Live flights for the selected country or time are shown with symbols of differen
 <img src="./public/line.png"/>
 <br/>
 
-On clicking on the flight icon, line connecting waypoints from departure airport to the current location and futher till the arrival airport is shown to indicate the flight path.
+On clicking on the flight icon, line connecting waypoints from departure airport to the current location and further till the arrival airport is shown to indicate the flight path.
 
 _For more examples, please refer to the [site](https://flight-tracker-one.vercel.app/)_
 
